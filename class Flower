@@ -1,0 +1,151 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOrUCSgXj9dYd8e2pY+lVU2",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Svecw461/Data-structures/blob/main/class%20Flower\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 22,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Z2F3i3HG_VR_",
+        "outputId": "ee3fe5db-6798-4f4e-919e-0c740b45591a"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Flower Details:\n",
+            "Name: Sunflower\n",
+            "Number of petals: 2\n",
+            "Price: 1000.0\n",
+            "Flower Details:\n",
+            "Name: Rose\n",
+            "Number: 6\n",
+            "Price: 1000.0\n"
+          ]
+        }
+      ],
+      "source": [
+        "class Flower:\n",
+        "  def __init__(self,flowerName,petalNumber,flowerPrice):\n",
+        "    self.name=flowerName\n",
+        "    self.number=petalNumber\n",
+        "    self.price=flowerPrice\n",
+        "  def setName(self,flowerName):\n",
+        "    self.name=flowerName\n",
+        "  def setNumber(self,petalNumber):\n",
+        "    self.number=petalNumber\n",
+        "  def setPrice(self,petalPrice):\n",
+        "    self.price=flowerPrice\n",
+        "  def getName(self):\n",
+        "    return self.name\n",
+        "  def getNumber(self):\n",
+        "    return self.number\n",
+        "  def getPrice(self):\n",
+        "    return self.price\n",
+        "f1 = Flower(\"Sunflower\",2,1000.00)\n",
+        "print(\"Flower Details:\")\n",
+        "print(\"Name:\",f1.getName())\n",
+        "print(\"Number of petals:\",f1.getNumber())\n",
+        "print(\"Price:\",f1.getPrice())\n",
+        "f2 = Flower(\"Rose\",6,1000.00)\n",
+        "print(\"Flower Details:\")\n",
+        "print(\"Name:\",f2.getName())\n",
+        "print(\"Number:\",f2.getNumber())\n",
+        "print(\"Price:\",f2.getPrice())\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "ee3fe5db-6798-4f4e-919e-0c740b45591a",
+        "id": "xeGhM88RMCS7"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Flower Details:\n",
+            "Name: Sunflower\n",
+            "Number of petals: 2\n",
+            "Price: 1000.0\n",
+            "Flower Details:\n",
+            "Name: Rose\n",
+            "Number: 6\n",
+            "Price: 1000.0\n"
+          ]
+        }
+      ],
+      "source": [
+        "class Flower:\n",
+        "  def __init__(self,flowerName,petalNumber,flowerPrice):\n",
+        "    self.name=flowerName\n",
+        "    self.number=petalNumber\n",
+        "    self.price=flowerPrice\n",
+        "  def setName(self,flowerName):\n",
+        "    self.name=flowerName\n",
+        "  def setNumber(self,petalNumber):\n",
+        "    self.number=petalNumber\n",
+        "  def setPrice(self,petalPrice):\n",
+        "    self.price=flowerPrice\n",
+        "  def getName(self):\n",
+        "    return self.name\n",
+        "  def getNumber(self):\n",
+        "    return self.number\n",
+        "  def getPrice(self):\n",
+        "    return self.price\n",
+        "f1 = Flower(\"Sunflower\",2,1000.00)\n",
+        "print(\"Flower Details:\")\n",
+        "print(\"Name:\",f1.getName())\n",
+        "print(\"Number of petals:\",f1.getNumber())\n",
+        "print(\"Price:\",f1.getPrice())\n",
+        "f2 = Flower(\"Rose\",6,1000.00)\n",
+        "print(\"Flower Details:\")\n",
+        "print(\"Name:\",f2.getName())\n",
+        "print(\"Number:\",f2.getNumber())\n",
+        "print(\"Price:\",f2.getPrice())\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "eIxlzb-9Gxtg"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
